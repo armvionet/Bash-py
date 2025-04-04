@@ -46,7 +46,7 @@ def main():
     
     # Comprobar si se proporcionó un archivo como argumento
     if len(sys.argv) != 2:
-        print("Uso: python test_domains.py archivo_dominios.txt")
+        print("Uso: python test_dominios.py dominios.txt")
         sys.exit(1)
     
     # Leer dominios del archivo
